@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'Tait-fyp-Angular'
-          slot-name: $
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F4D95BD614A4027A38BF5C01F08387B }}
-
+          publish-profile: $
+          package: ./dist/hello-world-app
